@@ -11,9 +11,9 @@ namespace nullref\product\components;
 use nullref\core\interfaces\IList;
 use nullref\useful\traits\GetDefinition;
 use Yii;
-use yii\base\Object;
+use yii\base\BaseObject;
 
-class ProductTypes extends Object implements IList
+class ProductTypes extends BaseObject implements IList
 {
     const TYPE_SIMPLE = 'simple';
     const TYPE_CONFIGURABLE = 'configurable';
